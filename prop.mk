@@ -93,13 +93,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.demo.hdmirotationlock=false \
 	debug.enable.sglscale=1 \
 	debug.gralloc.enable_fb_ubwc=1 \
+	sdm.debug.disable_skip_validate=1 \
 	debug.sf.recomputecrop=0 \
 	ro.opengles.version=196610 \
 	ro.qualcomm.cabl=0 \
-	ro.sf.lcd_density=440 \
-	sdm.debug.disable_skip_validate=1 \
-	vendor.gralloc.enable_fb_ubwc=1 \
-	vendor.display.disable_skip_validate=1
+	ro.sf.lcd_density=440
 	
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -227,7 +225,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.default_network=20,20 \
     service.qti.ims.enabled=1 \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+	persist.vendor.qti.pie.telephony=1
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
