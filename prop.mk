@@ -97,9 +97,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=196610 \
 	ro.qualcomm.cabl=0 \
 	ro.sf.lcd_density=440 \
-	sdm.debug.disable_skip_validate=1 \
-	vendor.gralloc.enable_fb_ubwc=1 \
-	vendor.display.disable_skip_validate=1
+	sdm.debug.disable_skip_validate=1
 	
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \

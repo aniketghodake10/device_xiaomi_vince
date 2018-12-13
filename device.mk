@@ -157,7 +157,15 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.0 \
     vendor.display.config@1.0_vendor
-
+	
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+	
+# XiaomiParts mode
+PRODUCT_PACKAGES += \
+    XiaomiParts
+	
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -168,10 +176,6 @@ PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
     libebtc
-
-# XiaomiParts mode
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # FM
 PRODUCT_PACKAGES += \
