@@ -97,6 +97,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=440 \
 	sdm.debug.disable_skip_validate=1
 	
+# Display Properties as per treble compliance
+PRODUCT_PROPERTY_OVERRIDES += \
+	vendor.gralloc.enable_fb_ubwc=1 \
+	vendor.display.disable_skip_validate=1
+	
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.disable_hwc=1
