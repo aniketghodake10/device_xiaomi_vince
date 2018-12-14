@@ -101,16 +101,9 @@
     <ctl name="SpkrMono VISENSE Switch" value="0" />
     <ctl name="ADC1_INP1 Switch" value="0" />
 
-    <!--MAX98927 Smart PA-->
-    <ctl name="DRE EN" value="1" />
-    <ctl name="Left Channel Enable" value="0" />
-    <ctl name="Right Channel Enable" value="0" />
-    <ctl name="Boost Output Voltage" value="6.5V" />
-    <ctl name="Left Feedback Enable" value="ON" />
-    <ctl name="Right Feedback Enable" value="ON" />
-    <ctl name="Speaker Volume" value="1" />
-    <ctl name="Digital Gain" value="40" />
-    <!--MAX98927 Smart PA end-->
+    <!--tas2557 Smart PA-->
+    <ctl name="Calibration" value="255" />
+    <!--tas2557 Smart PA end-->
     
     <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="0" />
