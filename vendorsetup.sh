@@ -1,1 +1,1 @@
-add_lunch_combo lineage_vince-userdebug
+add_lunch_combo arrow_vince-userdebug
